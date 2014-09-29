@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name></display-name>
+
+	<servlet>
+		<servlet-name>VerifyTelServlet</servlet-name>
+		<servlet-class>servlet.com.VerifyTelServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VerifyTelServlet</servlet-name>
+		<url-pattern>/VerifyTelServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RegistServlet</servlet-name>
+		<servlet-class>servlet.com.RegistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistServlet</servlet-name>
+		<url-pattern>/RegistServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>servlet.com.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetUserServlet</servlet-name>
+		<servlet-class>servlet.com.GetUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetUserServlet</servlet-name>
+		<url-pattern>/GetUserServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EditUserServlet</servlet-name>
+		<servlet-class>servlet.com.EditUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditUserServlet</servlet-name>
+		<url-pattern>/EditUserServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetClass1Servlet</servlet-name>
+		<servlet-class>servlet.com.GetClass1Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetClass1Servlet</servlet-name>
+		<url-pattern>/GetClass1Servlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetSteelMsgListServlet</servlet-name>
+		<servlet-class>servlet.com.GetSteelMsgListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetSteelMsgListServlet</servlet-name>
+		<url-pattern>/GetSteelMsgListServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetPicInfoServlet</servlet-name>
+		<servlet-class>servlet.com.GetPicInfoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetPicInfoServlet</servlet-name>
+		<url-pattern>/GetPicInfoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>GetInfoListServlet</servlet-name>
+		<servlet-class>servlet.com.GetInfoListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetInfoListServlet</servlet-name>
+		<url-pattern>/GetInfoListServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetInfoServlet</servlet-name>
+		<servlet-class>servlet.com.GetInfoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetInfoServlet</servlet-name>
+		<url-pattern>/GetInfoServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SetReplyServlet</servlet-name>
+		<servlet-class>servlet.com.SetReplyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SetReplyServlet</servlet-name>
+		<url-pattern>/SetReplyServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetReplyServlet</servlet-name>
+		<servlet-class>servlet.com.GetReplyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetReplyServlet</servlet-name>
+		<url-pattern>/GetReplyServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetClassServlet</servlet-name>
+		<servlet-class>servlet.com.GetClassServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetClassServlet</servlet-name>
+		<url-pattern>/GetClassServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SetDzClassServlet</servlet-name>
+		<servlet-class>servlet.com.SetDzClassServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SetDzClassServlet</servlet-name>
+		<url-pattern>/SetDzClassServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SetKeepServlet</servlet-name>
+		<servlet-class>servlet.com.SetKeepServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SetKeepServlet</servlet-name>
+		<url-pattern>/SetKeepServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CancelKeepServlet</servlet-name>
+		<servlet-class>servlet.com.CancelKeepServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CancelKeepServlet</servlet-name>
+		<url-pattern>/CancelKeepServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>GetKeepCountServlet</servlet-name>
+		<servlet-class>servlet.com.GetKeepCountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetKeepCountServlet</servlet-name>
+		<url-pattern>/GetKeepCountServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetSteelKeepListServlet</servlet-name>
+		<servlet-class>servlet.com.GetSteelKeepListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetSteelKeepListServlet</servlet-name>
+		<url-pattern>/GetSteelKeepListServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetInfoKeepListServlet</servlet-name>
+		<servlet-class>servlet.com.GetInfoKeepListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetInfoKeepListServlet</servlet-name>
+		<url-pattern>/GetInfoKeepListServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetUnReadCountServlet</servlet-name>
+		<servlet-class>servlet.com.GetUnReadCountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetUnReadCountServlet</servlet-name>
+		<url-pattern>/GetUnReadCountServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DelSteelMsgServlet</servlet-name>
+		<servlet-class>servlet.com.DelSteelMsgServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DelSteelMsgServlet</servlet-name>
+		<url-pattern>/DelSteelMsgServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetAdServlet</servlet-name>
+		<servlet-class>servlet.com.GetAdServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetAdServlet</servlet-name>
+		<url-pattern>/GetAdServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetTsServiceNumServlet</servlet-name>
+		<servlet-class>servlet.com.GetTsServiceNumServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetTsServiceNumServlet</servlet-name>
+		<url-pattern>/GetTsServiceNumServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SetOpinionServlet</servlet-name>
+		<servlet-class>servlet.com.SetOpinionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SetOpinionServlet</servlet-name>
+		<url-pattern>/SetOpinionServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetTsServiceThumbPicServlet</servlet-name>
+		<servlet-class>servlet.com.GetTsServiceThumbPicServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetTsServiceThumbPicServlet</servlet-name>
+		<url-pattern>/GetTsServiceThumbPicServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetTsServiceListServlet</servlet-name>
+		<servlet-class>servlet.com.GetTsServiceListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetTsServiceListServlet</servlet-name>
+		<url-pattern>/GetTsServiceListServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetTsNoticeListServlet</servlet-name>
+		<servlet-class>servlet.com.GetTsNoticeListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetTsNoticeListServlet</servlet-name>
+		<url-pattern>/GetTsNoticeListServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>GetTsServiceInfoServlet</servlet-name>
+		<servlet-class>servlet.com.GetTsServiceInfoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetTsServiceInfoServlet</servlet-name>
+		<url-pattern>/GetTsServiceInfoServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetTsNoticeInfoServlet</servlet-name>
+		<servlet-class>servlet.com.GetTsNoticeInfoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetTsNoticeInfoServlet</servlet-name>
+		<url-pattern>/GetTsNoticeInfoServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetTsNoticeTimeServlet</servlet-name>
+		<servlet-class>servlet.com.GetTsNoticeTimeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetTsNoticeTimeServlet</servlet-name>
+		<url-pattern>/GetTsNoticeTimeServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetSearchSteelMsgListServlet</servlet-name>
+		<servlet-class>servlet.com.GetSearchSteelMsgListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetSearchSteelMsgListServlet</servlet-name>
+		<url-pattern>/GetSearchSteelMsgListServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetSearchInfoListServlet</servlet-name>
+		<servlet-class>servlet.com.GetSearchInfoListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetSearchInfoListServlet</servlet-name>
+		<url-pattern>/GetSearchInfoListServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetUpdateServlet</servlet-name>
+		<servlet-class>servlet.com.GetUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetUpdateServlet</servlet-name>
+		<url-pattern>/GetUpdateServlet</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
